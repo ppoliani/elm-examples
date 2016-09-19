@@ -14,7 +14,7 @@ view players =
 nav: List Player -> Html Msg
 nav players = 
     div [ class "clearfix mb2 white bg-black" ]
-        [ div [class "left p2" ] [ text "Players" ]]
+        [ div [ class "left p2" ] [ text "Players" ] ]
 
 list: List Player -> Html Msg
 list players = 
@@ -27,7 +27,8 @@ list players =
                     , th [] [ text "Level" ] 
                     , th [] [ text "Actions" ] 
                     ]
-                , tbody [] (List.map playerRow players)]
+                ]
+                , tbody [] (List.map playerRow players)
             ]
         ]
 
@@ -35,7 +36,7 @@ playerRow: Player -> Html Msg
 playerRow player =
     tr []
         [ td [] [ text (toString player.id) ]
-        , td [] [ text player.name
-        , td [] [ text (toString player.level) 
+        , td [] [ text player.name]
+        , td [] [ text (toString player.level) ]
         , td [][] 
         ] 
