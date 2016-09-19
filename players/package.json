@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "List of small Elm examples",
+  "main": "players/api.js",
+  "scripts": {
+    "start": "node players/api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppoliani/elm-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppoliani/elm-examples/issues"
+  },
+  "homepage": "https://github.com/ppoliani/elm-examples#readme",
+  "dependencies": {
+    "json-server": "^0.8.21"
+  }
+}
