@@ -2,9 +2,9 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "List of small Elm examples",
-  "main": "players/api.js",
+  "main": "api.js",
   "scripts": {
-    "start": "node players/api.js",
+    "start": "node api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
