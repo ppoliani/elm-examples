@@ -2,8 +2,8 @@ module Players.List exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (class)
-import Players.Messages exposing (..)
 import Players.Models exposing (Player)
+import Players.Messages exposing (..)
 
 view: List Player -> Html Msg
 view players = 
